@@ -26,23 +26,21 @@ body{
 header .logo{
   color: #fff;
   float: left;
-  margin-left: 150px;
+  margin-left: 30px;
   margin-top: 20px;
 }
-
-
   header{
     height: 120px;
     background: #053049;
   }
-  nav{
+
+
+nav{
     float: right;
     padding: 10px;
     margin-right: 100px;
-
   }
-
-  nav ul{
+nav ul{
   float: left;
   padding: 0;
 } 
@@ -57,15 +55,21 @@ nav ul li{
   padding: 35px 18px 35px 18px;
   text-align: left;
   font-size: 24px;
-  color: #f8e32c;
+  color: #f9e42e;
 }
+
+nav ul li a{
+  float: left;
+  margin: 0 0 0 0;
+  color: #f9e42e;
+}
+
+
 
 section{
     height: 2000px;
     width: 700px;
-    float: left;
-    margin-left: 116px;
-    width: 100%;
+    float: left;  
   }
 
   img{
@@ -84,9 +88,8 @@ section{
   aside.right{
     width: 240px;
     float: left;
-    clear: right;
-    margin-left: 80px;
-    margin-top: -900px;
+    margin-left: 70px;
+    margin-top: 78px;
   }
 
   a{
@@ -94,10 +97,9 @@ section{
     text-decoration: none;
   }
 
- /* p article{
-    padding-bottom: 20px;
-    color: #033048;
-  }*/
+a:hover {
+    color: #f9e42e;
+}
 
   p.article::first-letter {
   font-size: 72px;
@@ -112,7 +114,8 @@ section{
 
   hr.style1{
   border-top: 1px solid #8c8b8b;
-  margin-top: 120px;
+  margin-top: 117px;
+  width: 700px;
 }
 
   .button{
@@ -170,10 +173,12 @@ section{
   div a{
     font-size: 24px;
     font-weight: 600;
-    /*margin-top: 40px;*/
     float: right;
-    margin-top: 40px;   
+    margin-top: 15px;   
   }
+
+
+
 
   .Learn{
     font-family: 'Open Sans', sans-serif;
@@ -182,13 +187,7 @@ section{
     float: left;
   }
 
-/*  footer{
-    background:#121212;
-    padding: 65px 0 45px;
-    text-align: center;
-    height: 390px;
-    width: 100%;*/
-  }
+
   h4.logo{
     color: #f9e42e;
     margin-bottom: 68px;
@@ -211,9 +210,6 @@ section{
 
   }
 
-.copyright{
-
-}
 
   footer{
     font-size: 18px;
@@ -225,7 +221,7 @@ section{
     background:#121212;
     padding: 65px 0 45px;
     text-align: center;
-    height: 390px;
+    height: 500px;
     width: 100%;
   }
 
